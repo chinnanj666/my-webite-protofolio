@@ -1,9 +1,12 @@
 {
+  "homepage": "https://chinnanj666.github.io/myportfolio-next-js",
   "name": "mynextjsportfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages  -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
