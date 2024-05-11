@@ -3,6 +3,7 @@ import { Resend } from "resend";
 
 const resend = new Resend('re_bnYYCpmt_NAonuf889epTeHdvCq9izEbn');
 
+
 // Retrieve FROM_EMAIL from environment variables
 const fromEmail = process.env.FROM_EMAIL;
 
