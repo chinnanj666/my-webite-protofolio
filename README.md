@@ -1,10 +1,7 @@
 
 ## live demo
-click here
-https://chinnanj.netlify.app/
+[click here](https://chinnanj.netlify.app/)
 
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -34,9 +31,24 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deploy on Netlify
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**1.Manual Drag-and-Drop Deployment:**
+This is a simple option for projects that are not under version control. You can navigate to the Netlify app and drag your project folder into the designated drop zone. Netlify will then handle the build and deployment process.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**2.Git-Based Deployment:** This is the recommended approach for most projects, especially those under version control with Git. Here's a general procedure:
+
+Create a Netlify Account and Connect to Git: Sign up for a Netlify account and link it to your Git provider (e.g., GitHub, GitLab).
+
+**3.Add a New Site:**
+In the Netlify app, initiate the process of adding a new site.
+
+Select your Git Repository: Choose the repository containing your project code.
+
+**4.Configure Build Settings (if necessary):**
+Netlify will attempt to automatically detect build commands based on your project framework. You can review and adjust these settings if needed.
+
+**5.Deploy Your Site:** 
+Netlify will initiate a build process based on your configuration and deploy your project to a live URL.
+
