@@ -1,7 +1,4 @@
 
-## live demo
-[click here](https://chinnanj.netlify.app/)
-
 
 ## Getting Started
 
